@@ -119,5 +119,6 @@ public class Question {
         ls.get(13).put("option4","October 11");
         ls.get(13).put("answer","3");
         ls.get(13).put("money","10000000");
+        ls.get(13).put("money1","10000000");
     }
 }

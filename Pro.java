@@ -8,13 +8,14 @@ public class Pro extends Question {
         if(hm.get("answer").equals("2")){
             System.out.println("Option 3 :"+hm.get("option3"));
             System.out.println("Option 2 :"+hm.get("option2"));
+
         }
         if(hm.get("answer").equals("1")){
             System.out.println("Option 3 :"+hm.get("option3"));
             System.out.println("Option 1 :"+hm.get("option1"));
         }
         if(hm.get("answer").equals("3")){
-            System.out.println("Option 3 :"+hm.get("option3"));
+            System.out.println("Option 3 :"+hm.get("option33"));
             System.out.println("Option 2 :"+hm.get("option2"));
         }
     }

@@ -9,7 +9,8 @@ public class Question {
         ls.get(0).put("name"," India's largest city by population");
         ls.get(0).put("option1","Delhi");
         ls.get(0).put("option2","Mumbai");
-        ls.get(0).put("option3","Pune");
+        ls.get(0).put("option3","Punee");
+        ls.get(0).put("option5","Punee");
         ls.get(0).put("option4","Bangalore");
         ls.get(0).put("answer","2");
         ls.get(0).put("money","1000");

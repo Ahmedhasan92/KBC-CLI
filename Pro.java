@@ -1,5 +1,5 @@
-import java.io.*;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 public class Pro extends Question {
     public static boolean isAnswerCorrect(StringBuffer sb, HashMap<String,String> hm){
         return hm.get("answer").equals(sb.toString());
@@ -52,7 +52,7 @@ public class Pro extends Question {
             }
             if(isAnswerCorrect(sb,hm)){
                 m=m+Integer.parseInt(hm.get("money"));
-                System.out.println("Correct!");
+                System.out.println("Correct!!");
             }else{
                 System.out.println("Wrong Answer");
                 System.out.println("You won :"+padaav+" rupees");
